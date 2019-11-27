@@ -1,0 +1,13 @@
+#first{
+    background-color: blue;
+    height: 500px;
+}
+#contain{
+    display: flex;
+    /* height: 100%; */
+    flex-direction: column;
+}
+.flex{
+    height: 100px;
+    border: 1px solid black;
+}
