@@ -1,13 +1,16 @@
-#first{
-    background-color: blue;
-    height: 500px;
-}
+
 #contain{
     display: flex;
-    /* height: 100%; */
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-flow: row wrap;
+    border: 1px solid blue;
+    height: 200px;
+    width: 500px;
 }
-.flex{
-    height: 100px;
+#contain div{
+    width: 20%;
     border: 1px solid black;
 }
