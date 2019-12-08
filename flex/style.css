@@ -1,16 +1,10 @@
-
-#contain{
+body{
+    background-color: rgb(135, 250, 250);
+}
+.vcenter{
+    align-items: center;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    border: 1px solid blue;
-    width: 800px;
+    height: 150px;
+    border: black solid 1px;
 }
-#contain div{
-    text-align: center;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    flex-grow: 1;
-    flex-basis: 100px;
-    border: 1px solid black;
-}
-
