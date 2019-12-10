@@ -8,3 +8,8 @@ body{
     height: 150px;
     border: black solid 1px;
 }
+
+
+.vcenter{
+    width: 10px;
+}
